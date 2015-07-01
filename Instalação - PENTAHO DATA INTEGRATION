@@ -1,0 +1,27 @@
+# Vou descrever tudo o que tive que fazer para fazer funcionar o PDI na minha máquina
+
+# 1º) Download: http://sourceforge.net/projects/pentaho/?source=typ_redirect
+
+# 2º) Criar um diretório "sudo mkdir /opt/pentaho/biclient". Obs: o arquivo baixado irá para esse diretório
+
+#3º) Para conseguir colar o arquivo .zip baixado no diretório "/biclient" tive que executar o seguinte comando para 
+#    ter permissão para colar o arquivo
+    # sudo chown welingtonbp /opt/pentaho/biclient/
+    
+#4º) Acesse o diretório data-integration e de permissão a todos os arquivos .sh como o comando:
+      # chmod *.sh
+      
+#5º) Precisei instalar o JAVA, 
+      5.1: verifiquei se já tiva algo instalado pelo comando:   java -version
+             Resultado: Não tinha nada de JAVA Instalado
+                        Então, executei: sudo apt-get install default-jre
+                        Isto irá instalar o Java Runtime Environment(JRE)
+      Extra: Para completar instalei a JDK: sudo apt-get install default-jdk
+
+#6º) Agora, enfim, digite: spoon.sh e está pronto para começar a brincadeira
+      ./spoon.sh
+      
+      
+      
+
+      
