@@ -1,0 +1,10 @@
+# Pressione CRTL+ALT+T para abrir o Terminal
+
+# Instale o banco de dados MySQL:
+# apt-get install mysql-client-5.5 mysql-client-core-5.5 mysql-common mysql-server-5.5 mysql-server-core-5.5
+# Obs: durante a instalação será solicitado que configure uma senha para o root, espere e não feche a janela, aqui demorou um pouco para liberar para digitar (1 min)
+
+# E agora o MySQL-WorkBench:
+# apt-get install mysql-workbench mysql-workbench-data 
+
+# Instalando 
